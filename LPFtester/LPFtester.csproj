@@ -7,8 +7,8 @@
     <ProjectGuid>{66842A21-C0D7-42B3-AC7C-F43445D291E9}</ProjectGuid>
     <OutputType>WinExe</OutputType>
     <AppDesignerFolder>Properties</AppDesignerFolder>
-    <RootNamespace>filter_tester</RootNamespace>
-    <AssemblyName>filter tester</AssemblyName>
+    <RootNamespace>LPFtester</RootNamespace>
+    <AssemblyName>LPFtester</AssemblyName>
     <TargetFrameworkVersion>v4.5</TargetFrameworkVersion>
     <FileAlignment>512</FileAlignment>
   </PropertyGroup>
@@ -63,6 +63,7 @@
     <Compile Include="Properties\Resources.Designer.cs">
       <AutoGen>True</AutoGen>
       <DependentUpon>Resources.resx</DependentUpon>
+      <DesignTime>True</DesignTime>
     </Compile>
     <None Include="Properties\Settings.settings">
       <Generator>SettingsSingleFileGenerator</Generator>
